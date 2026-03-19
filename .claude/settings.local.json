@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python main.py)",
+      "Bash(python -c \"from datetime import datetime; t1 = datetime.strptime\\(''2026/03/19 14:53:39.227'', ''%Y/%m/%d %H:%M:%S.%f''\\); t2 = datetime.strptime\\(''2026/03/19 14:57:13.045'', ''%Y/%m/%d %H:%M:%S.%f''\\); print\\(f''{\\(t2-t1\\).total_seconds\\(\\):.3f}''\\)\")"
+    ]
+  }
+}
