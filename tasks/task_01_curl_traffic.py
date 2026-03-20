@@ -91,7 +91,7 @@ class Task01CurlTraffic(ITask):
             # Filter lines containing curl.exe
             curl_lines = filter_lines_by_pattern(
                 self.log_file_path,
-                r'process:\s+curl\.exe'
+                r'nsTunnel.+Tunneling\sflow.+process:\scurl\.exe'
             )
 
             if not curl_lines:
